@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Allarnoying</string>
+    <string name="txt1">00:00</string>
+    <string name="hintHora">Hora do Alarme</string>
+    <string name="hintNome">Nome do Alarme</string>
+    <string name="dia1">D</string>
+    <string name="dia2">S</string>
+    <string name="dia3">T</string>
+    <string name="dia4">Q</string>
+    <string name="dia5">Q</string>
+    <string name="dia6">S</string>
+    <string name="dia7">S</string>
+    <string name="saveButao">Salvar</string>
+    <string name="vibraButao">Vibrar</string>
+    <string name="flashCheck">Piscar Flash</string>
+    <string name="DesafioCheck">Ativar Desafios</string>
+    <string name="AlarmeBar">Som do Alarme</string>
+    <string name="Desafiotxt">Desafios</string>
+    <string name="Matematicos">Matematico</string>
+    <string name="Imagens">Imagens</string>
+    <string name="Texto">Texto</string>
+    <string name="Charada">Charada</string>
+    <string name="Timer">Timer</string>
+    <string name="Cronometro">Cronômetro</string>
+
+</resources>
