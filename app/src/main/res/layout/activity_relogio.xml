@@ -13,6 +13,7 @@
         android:layout_marginEnd="176dp"
         android:layout_marginBottom="64dp"
         android:clickable="true"
+        android:onClick="IrAlarme"
         app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
@@ -23,6 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="162dp"
         android:layout_marginBottom="40dp"
+        android:onClick="IrTimer"
         android:text="@string/Timer"
         app:layout_constraintBottom_toTopOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -33,6 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="136dp"
         android:layout_marginBottom="40dp"
+        android:onClick="IrCronometro"
         android:text="@string/Cronometro"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
