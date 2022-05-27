@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Intent salvar = getIntent();
+        String nome = salvar.getStringExtra(alarme.EXTRA_MESSAGE);
 
     }
     public void criaralarme(View view){
@@ -26,5 +28,10 @@ public class MainActivity extends AppCompatActivity {
 
         Intent principal = new Intent(this, Relogio.class);
         startActivity(principal);
+    }
+    public void Editalarme(View view){
+
+        Intent edição = new Intent(this, alarme.class);
+        startActivity(edição);
     }
 }

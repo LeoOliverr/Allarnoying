@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Allarnoying</string>
-    <string name="txt1">00:00</string>
     <string name="hintHora">Hora do Alarme</string>
     <string name="hintNome">Nome do Alarme</string>
     <string name="dia1">D</string>
@@ -22,5 +21,6 @@
     <string name="Charada">Charada</string>
     <string name="Timer">Timer</string>
     <string name="Cronometro">Cronômetro</string>
+    <string name="EditarAlarme">Edit</string>
 
 </resources>
