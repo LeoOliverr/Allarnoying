@@ -1,11 +1,13 @@
 package com.example.aplicacaoteste;
 
 import static android.provider.AlarmClock.EXTRA_MESSAGE;
+import static android.provider.AlarmClock.EXTRA_MINUTES;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.view.View;
 import android.widget.EditText;
 
@@ -26,6 +28,9 @@ public class alarme extends AppCompatActivity {
         EditText text = (EditText) findViewById(R.id.editTextTime2);
         String nome = text.getText().toString();
         salvar.putExtra(EXTRA_MESSAGE, nome);
+        EditText horatext = (EditText)findViewById(R.id.editTextTime4);
+        String hora = horatext.getText().toString();
+        salvar.putExtra(EXTRA_MESSAGE, hora);
         startActivity(salvar);
     }
     public void desafios(View view){
