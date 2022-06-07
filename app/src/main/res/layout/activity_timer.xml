@@ -24,19 +24,23 @@
         android:id="@+id/editTextTime3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="105dp"
         android:ems="10"
         android:inputType="time"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="105dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="106dp"
         android:background="#8BC34A"
         android:text="Começar"
         app:iconTint="#78B136"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="256dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTime3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

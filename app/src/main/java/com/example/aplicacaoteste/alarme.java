@@ -27,10 +27,10 @@ public class alarme extends AppCompatActivity {
         Intent salvar = new Intent(this,MainActivity.class);
         EditText text = (EditText) findViewById(R.id.editTextTime2);
         String nome = text.getText().toString();
-        salvar.putExtra(EXTRA_MESSAGE, nome);
+        salvar.putExtra("nomealarme", nome);
         EditText horatext = (EditText)findViewById(R.id.editTextTime4);
         String hora = horatext.getText().toString();
-        salvar.putExtra(EXTRA_MESSAGE, hora);
+        salvar.putExtra("horario", hora);
         startActivity(salvar);
     }
     public void desafios(View view){

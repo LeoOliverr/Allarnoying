@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Intent salvar = getIntent();
-        String nome = salvar.getStringExtra(alarme.EXTRA_MESSAGE);
-        String hora = salvar.getStringExtra(alarme.EXTRA_MESSAGE);
+        String nome = salvar.getStringExtra("nomealarme");
+        String hora = salvar.getStringExtra("horario");
         textonome = (TextView)findViewById(R.id.textView4);
         textonome.setText(nome);
         textohora = (TextView)findViewById(R.id.textView8);
