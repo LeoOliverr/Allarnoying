@@ -20,14 +20,14 @@
         app:rippleColor="#8BC34A"
         app:srcCompat="@drawable/abc_vector_test" />
 
-    <EditText
-        android:id="@+id/editTextTime3"
+    <Chronometer
+        android:id="@+id/cronometroview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="105dp"
-        android:ems="10"
-        android:inputType="time"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="140dp"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,11 +36,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="152dp"
-        android:layout_marginTop="106dp"
+        android:layout_marginTop="69dp"
         android:background="#8BC34A"
-        android:text="Começar"
+        android:text="@string/Começartimer"
         app:iconTint="#78B136"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTime3" />
+        app:layout_constraintTop_toBottomOf="@+id/cronometroview" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="36dp"
+        android:background="#8BC34A"
+        android:text="@string/Parartimer"
+        app:iconTint="#78B136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="39dp"
+        android:background="#8BC34A"
+        android:text="@string/Resetartimer"
+        app:iconTint="#78B136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

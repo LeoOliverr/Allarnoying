@@ -22,5 +22,11 @@
     <string name="Timer">Timer</string>
     <string name="Cronometro">Cronômetro</string>
     <string name="EditarAlarme">Edit</string>
+    <string name="Começartimer">Começar</string>
+    <string name="Parartimer">Parar</string>
+    <string name="Resetartimer">Reiniciar</string>
+    <string name="Começarcronometro">Começar/Parar</string>
+    <string name="Modificarcronometro">Modificar tempo</string>
+    <string name="tempocronometro">00:00</string>
 
 </resources>
